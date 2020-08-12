@@ -965,7 +965,7 @@ def process_deferred_file_uuid(file_uuid, filename, known_cases, known_samples, 
     else:
         fileMetadataRetriever = FileCaseSampleMetadataRetriever(gdc_api_root)
 
-    filedMmetadata = fileMetadataRetriever.get_metadata(file_uuid)
+    fileMetadata = fileMetadataRetriever.get_metadata(file_uuid)
 
     cases = fileMetadata['cases']
     num_associated_cases = len(cases)
