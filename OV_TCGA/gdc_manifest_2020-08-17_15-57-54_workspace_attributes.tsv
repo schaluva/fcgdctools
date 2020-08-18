@@ -1,0 +1,2 @@
+workspace:legacy_flag	workspace-column-defaults
+false	{"participant": {"shown": ["submitter_id", "project_id", "participant_id"]}, "sample":{"shown":["submitter_id", "sample_id", "participant", "sample_type"]}, "pair":{"shown":["tumor_submitter_id", "normal_submitter_id", "pair_id"]}}
