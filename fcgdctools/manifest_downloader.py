@@ -29,7 +29,7 @@ def build_filter_json(filter_attrs):
 def download_manifest(filt_json):
 	
 	#This is the API endpoint for performing a search on the GDC data portal and retrieving file information.
-	files_endpt = 'https://api.gdc.cancer.gov/files'
+	files_endpt = 'https://api.gdc.cancer.gov/legacy/files'
 
 	#Creating a new name for the manifest file
 	timestamp='{:%Y-%m-%d_%H-%M-%S}'.format(datetime.datetime.now())

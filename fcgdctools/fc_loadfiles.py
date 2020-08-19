@@ -11,7 +11,7 @@ UUID_TO_FILENAME = dict()
 
 DEFERRED_FILE_NUM_OF_CASES = dict()
 
-GDC_API_ROOT = "https://api.gdc.cancer.gov"
+GDC_API_ROOT = "https://api.gdc.cancer.gov/legacy"
 GDC_LEGACY_API_ROOT = "https://api.gdc.cancer.gov/legacy"
 
 #program
